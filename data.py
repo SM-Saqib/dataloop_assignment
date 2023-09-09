@@ -36,16 +36,6 @@ class Data:
                 setattr(self, key, value)
                 
 
-    # def __getattr__(self, name):
-    #     if name not in self.__dict__:
-    #         return Data()
-    #     return self.__dict__[name]
-
-    # def __setattr__(self, name, value):
-    #     if name not in self.data:
-    #         self.data[name] = value
-    #     else:
-    #         self.data[name] = value
             
 
     def __repr__(self) -> str:
